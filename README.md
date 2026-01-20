@@ -13,12 +13,12 @@ Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, M
 <!-- Screenshots section (HTML table 5x2) -->
 <h2>Screenshots</h2>
 <p>If you add screenshots to a <code>screenshots/</code> folder at the project root, they will render here on GitHub. Filenames follow the pattern <code>ss_day_1.jpg</code>, <code>ss_day_2.jpg</code>, ..., <code>ss_night_1.jpg</code>, etc.</p>
-<table>
-  <tr>
-    <td>ss_day_1.jpg</td>
-    <td>ss_night_1.jpg</td>
-  </tr>
-</table>
+
+<!-- Replaced the plain filename table with image links so they actually render on GitHub and local markdown viewers -->
+<p>
+  <img src="screenshots/ss_day_1.jpg" alt="ss_day_1" width="360" />
+  <img src="screenshots/ss_night_1.jpg" alt="ss_night_1" width="360" />
+</p>
 
 ---
 
@@ -33,7 +33,7 @@ Note: No additional setup steps are required in this README. If you need mock da
 
 ---
 
-## API notes (no URLs disclosed)
+## API notes
 
 - Network code lives under `app/src/main/java/com/ferhat/whoconnectedng/api`.
 - The project uses Retrofit instances created in `HomeService` and `MacVenService`. Those services define the base URLs inside their respective objects. (I intentionally do not publish those URL strings here.)
