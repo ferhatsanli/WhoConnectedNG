@@ -15,7 +15,7 @@ Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, M
 ---
 
 <!-- Screenshots section (HTML table 5x2) -->
-<h2>Screenshots</h2>π
+<h2>Screenshots</h2>
 <!-- HTML table to display screenshots at original resolution -->
 <table>
   <tr>
