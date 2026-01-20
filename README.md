@@ -2,7 +2,11 @@
 
 ## Project Overview
 
-WhoConnectedNG is a small Android portfolio project that demonstrates practical experience with Kotlin, Retrofit-based API consumption, and Jetpack Compose UI development. It is intended to show recruiters that I can build a modern Android app using REST APIs and Compose, follow MVVM patterns, and produce maintainable code.
+WhoConnectedNG is an Android application that discovers devices connected to your home network and displays basic device information. The app does not scan the network itself; instead, it fetches device data (IP and MAC addresses) from a small Node.js server that you run locally on a Raspberry Pi inside your home network. The Raspberry Pi server performs the LAN scan and returns a list of connected devices; the Android app then retrieves that list and shows each device's IP and MAC address in the UI.
+
+For every MAC address the app receives, it queries macvendors.com to resolve the vendor (manufacturer) name and displays that vendor directly beneath the device's name. This helps you quickly identify which devices are phones, routers, smart TVs, etc.
+
+All scanning and device collection occur locally on your Raspberry Pi and within your home network. The only external network call the app makes is to macvendors.com to look up vendor names — no device payloads or scan data are sent to third parties beyond that lookup.
 
 This repository is presented by a computer engineering graduate who recently learned Android Kotlin development and has 2 years of professional experience in RPA (UiPath). I am currently applying for Junior Android Developer roles and this project highlights relevant skills for those positions.
 
@@ -14,11 +18,11 @@ Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, M
 <h2>Screenshots</h2>
 <p>If you add screenshots to a <code>screenshots/</code> folder at the project root, they will render here on GitHub. Filenames follow the pattern <code>ss_day_1.jpg</code>, <code>ss_day_2.jpg</code>, ..., <code>ss_night_1.jpg</code>, etc.</p>
 
-<!-- Replaced the plain filename table with image links so they actually render on GitHub and local markdown viewers -->
-<p>
-  <img src="screenshots/ss_day_1.jpg" alt="ss_day_1" width="360" />
-  <img src="screenshots/ss_night_1.jpg" alt="ss_night_1" width="360" />
-</p>
+<!-- Use Markdown images so they render properly and avoid width linter warnings -->
+
+![ss_day_1](screenshots/ss_day_1.jpg)
+
+![ss_night_1](screenshots/ss_night_1.jpg)
 
 ---
 
