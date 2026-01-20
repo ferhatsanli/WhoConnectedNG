@@ -16,17 +16,7 @@ Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, M
 <table>
   <tr>
     <td>ss_day_1.jpg</td>
-    <td>ss_day_2.jpg</td>
-    <td>ss_day_3.jpg</td>
-    <td>ss_day_4.jpg</td>
-    <td>ss_day_5.jpg</td>
-  </tr>
-  <tr>
     <td>ss_night_1.jpg</td>
-    <td>ss_night_2.jpg</td>
-    <td>ss_night_3.jpg</td>
-    <td>ss_night_4.jpg</td>
-    <td>ss_night_5.jpg</td>
   </tr>
 </table>
 
