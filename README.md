@@ -18,11 +18,13 @@ Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, M
 <h2>Screenshots</h2>
 <p>If you add screenshots to a <code>screenshots/</code> folder at the project root, they will render here on GitHub. Filenames follow the pattern <code>ss_day_1.jpg</code>, <code>ss_day_2.jpg</code>, ..., <code>ss_night_1.jpg</code>, etc.</p>
 
-<!-- Use Markdown images so they render properly and avoid width linter warnings -->
-
-![ss_day_1](screenshots/ss_day_1.jpg)
-
-![ss_night_1](screenshots/ss_night_1.jpg)
+<!-- HTML table to display screenshots at original resolution -->
+<table>
+  <tr>
+    <td><img src="screenshots/ss_day_1.jpg" alt="ss_day_1" width="350" /></td>
+    <td><img src="screenshots/ss_night_1.jpg" alt="ss_night_1" width="350" /></td>
+  </tr>
+</table>
 
 ---
 
