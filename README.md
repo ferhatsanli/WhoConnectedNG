@@ -1,5 +1,15 @@
 # WhoConnectedNG
 
+## Project Overview
+
+WhoConnectedNG is a small Android portfolio project that demonstrates practical experience with Kotlin, Retrofit-based API consumption, and Jetpack Compose UI development. It is intended to show recruiters that I can build a modern Android app using REST APIs and Compose, follow MVVM patterns, and produce maintainable code.
+
+This repository is presented by a computer engineering graduate who recently learned Android Kotlin development and has 2 years of professional experience in RPA (UiPath). I am currently applying for Junior Android Developer roles and this project highlights relevant skills for those positions.
+
+Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, MVVM, ViewModel, Coroutines, UI, portfolio, RPA, UiPath.
+
+---
+
 <!-- Screenshots section (HTML table 5x2) -->
 <h2>Screenshots</h2>
 <p>Placeholder table for screenshots. Replace filenames with actual images in the repo under a suitable folder (for example <code>screenshots/</code>).</p>
@@ -19,16 +29,6 @@
     <td>ss_night_5.jpg</td>
   </tr>
 </table>
-
----
-
-## Project Overview
-
-WhoConnectedNG is a small Android portfolio project that demonstrates practical experience with Kotlin, Retrofit-based API consumption, and Jetpack Compose UI development. It is intended to show recruiters that I can build a modern Android app using REST APIs and Compose, follow MVVM patterns, and produce maintainable code.
-
-This repository is presented by a computer engineering graduate who recently learned Android Kotlin development and has 2 years of professional experience in RPA (UiPath). I am currently applying for Junior Android Developer roles and this project highlights relevant skills for those positions.
-
-Key skills and keywords: Kotlin, Android, Jetpack Compose, Retrofit, REST API, MVVM, ViewModel, Coroutines, UI, portfolio, RPA, UiPath.
 
 ---
 
